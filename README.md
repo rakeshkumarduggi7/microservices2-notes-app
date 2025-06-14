@@ -5,6 +5,7 @@ How it works:
 SIGN UP
 
 use the url : http://localhost:8000/user/signup
+
 for signing up to the service , in POSTMAN type the above url and set to post method, go to body tab and set to raw file and JSON format in the text bar below type
 
 {
@@ -19,6 +20,7 @@ replace in myusername and mypassword your own username and password and press se
 SIGN IN
 
 u can now login with this  url  :  http://localhost:8000/user,
+
 and set to get method , then go to Authorization tab and select type as Basic Auth and type your 
 username and password in the respective fields and press send , you will get a message if signin successful,
 
