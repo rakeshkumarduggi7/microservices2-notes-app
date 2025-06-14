@@ -10,7 +10,6 @@ for signing up to the service , in POSTMAN type the above url and set to post me
 
 {
 "username":"myusername",
-
 "password":"mypassword"
 }  
 
