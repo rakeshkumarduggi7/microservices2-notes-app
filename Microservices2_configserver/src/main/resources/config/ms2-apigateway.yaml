@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8767/eureka/
+
+spring:
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: ms2-userservice
+            uri: lb://ms2-userservice
+            predicates:
+              - Path=/user/**

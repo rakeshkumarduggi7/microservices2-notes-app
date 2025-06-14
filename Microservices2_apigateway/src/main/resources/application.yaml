@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms2_apigateway
+    name: ms2-apigateway
   config:
     import: "optional:configserver:http://localhost:8081"
 

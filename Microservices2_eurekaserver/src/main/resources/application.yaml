@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms2_eurekaserver
+    name: ms2-eurekaserver
 server:
   port: 8767
 eureka:

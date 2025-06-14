@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms2_configserver
+    name: ms2-configserver
   profiles:
     active: native
 server:

@@ -1,5 +1,5 @@
 spring:
   application:
-    name: ms2_userservice
+    name: ms2-userservice
   config:
     import: "optional:configserver:http://localhost:8081"
